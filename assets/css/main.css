@@ -22,16 +22,26 @@ body {
     color: var(--brand-secondary);
 }
 
-.navbar-brand img {
+/* .navbar-brand img {
     width: auto;
-    max-width: 120px;
+    max-width: 200px;
     height: auto;
     max-height: 40px;
+} */
+.navbar-brand-logo img {
+    width: 150px;
+   
+    height: 80px;
+    
 }
 
-.navbar-brand.brand-lg img {
+/* .navbar-brand.brand-lg img {
     max-width: 150px;
     max-height: 56px;
+} */
+.navbar-brand-footer.brand-lg img {
+    max-width: 300px;
+    max-height: 80px;
 }
 
 @media screen and (min-width: 992px) {
